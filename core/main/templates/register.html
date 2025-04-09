@@ -1,0 +1,119 @@
+<!-- {% load static %}
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Register | CodeLab</title>
+      <link rel="stylesheet" href="{% static 'style.css' %}">
+      <style>
+         @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+         * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+         }
+         html, body {
+            display: flex;
+            height: 100vh;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+            background: #f2f2f2;
+         }
+         .wrapper {
+            width: 400px;
+            background: #fff;
+            border-radius: 15px;
+            box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
+            padding: 30px;
+         }
+         .wrapper .title {
+            font-size: 28px;
+            font-weight: 600;
+            text-align: center;
+            color: #fff;
+            border-radius: 15px 15px 0 0;
+            background: linear-gradient(-135deg, #D19C97, #D19C97);
+            padding: 20px;
+         }
+         .wrapper form .field {
+            margin-top: 20px;
+            position: relative;
+         }
+         .wrapper form .field input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid lightgrey;
+            border-radius: 5px;
+            font-size: 16px;
+         }
+         .wrapper form .field input:focus {
+            border-color: #4158d0;
+         }
+         .wrapper form .field label {
+            display: block;
+            margin-top: 5px;
+            font-size: 14px;
+            color: #555;
+         }
+         .wrapper form .field input[type="submit"] {
+            width: 100%;
+            background: linear-gradient(-135deg, #D19C97, #D19C97);
+            color: #fff;
+            font-size: 18px;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 15px;
+         }
+         .wrapper form .login-link {
+            text-align: center;
+            margin-top: 15px;
+         }
+         .wrapper form .login-link a {
+            color: #1C1C1C;
+            text-decoration: none;
+            font-weight: bold;
+         }
+         .wrapper form .login-link a:hover {
+            text-decoration: underline;
+         }
+      </style>
+   </head>
+   <body>
+      <div class="wrapper">
+         <div class="title">Register</div>
+         <form action="/register/" method="POST">
+            {% csrf_token %}
+            <div class="field">
+               <label for="username">Username</label>
+               <input type="text" name="username" id="username" required>
+            </div>
+            <div class="field">
+               <label for="email">Email Address</label>
+               <input type="email" name="email" id="email" required>
+            </div>
+            <div class="field">
+               <label for="password">Password</label>
+               <input type="password" name="password" id="password" required>
+            </div>
+            <div class="field">
+               <label for="confirm-password">Confirm Password</label>
+               <input type="password" name="confirm-password" id="confirm-password" required>
+            </div>
+            <div class="field">
+               <input type="submit" value="Register"> 
+            </div>
+            <div class="login-link">
+                Already have an account? <a href="/login/">Login now</a><br>
+                <a href="/" class="home-link">Home</a>
+             </div>
+         </form>
+      </div>
+   </body>
+</html> -->
